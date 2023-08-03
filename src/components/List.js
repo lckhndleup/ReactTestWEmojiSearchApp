@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import ListItem from './ListItem'
-import ListCard from './ListCard'
+
 import EmojiList from '../emojiList.json'
 
 function List({ emojies, setEmojies, searchedEmoji}) {
@@ -28,7 +28,6 @@ function List({ emojies, setEmojies, searchedEmoji}) {
                   <ListItem data-testid="listItem" key={key} value={value} />
                 )})
               }
-              <ListCard />
             </div>
           </div>
   )
