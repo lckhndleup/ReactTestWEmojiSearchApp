@@ -6,7 +6,7 @@ import List from './components/List';
 import EmojiList from './emojiList.json'
 function App() {
 
-  //Main background color sets
+  
   document.body.style.background = '#513e50';
 
 
